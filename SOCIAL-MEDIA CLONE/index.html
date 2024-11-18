@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div id="user-info"></div>
+    </header>
+
+    <section id="auth-section">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Enter Username" />
+        <button id="login-btn">Login</button>
+    </section>
+
+    <section id="post-section" style="display: none;">
+        <h2>Create a Post</h2>
+        <textarea id="post-text" placeholder="What's on your mind?"></textarea>
+        <button id="post-btn">Post</button>
+    </section>
+
+    <section id="feed-section">
+        <h2>Feed</h2>
+        <div id="feed"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Social Media Clone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My E-Commerce Store</h1>
+        <div class="cart">
+            <button id="cart-button">View Cart (0)</button>
+        </div>
+    </header>
+
+    <!-- Product List Section -->
+    <section class="product-list">
+        <div class="product">
+            <img src="pngwing.com.png" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$25.00</p>
+            <button class="add-to-cart" data-product="1" data-price="25.00">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="image.png" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$35.00</p>
+            <button class="add-to-cart" data-product="2" data-price="35.00">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="ncr104-2.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$45.00</p>
+            <button class="add-to-cart" data-product="3" data-price="45.00">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart-section" class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="checkout-button">Checkout</button>
+        <button id="close-cart">Close Cart</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-Commerce Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
