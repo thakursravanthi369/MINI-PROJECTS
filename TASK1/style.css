@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif; /* Or your preferred font */
+    background-repeat: cover;
+    background-image: url(—Pngtree—tmall\ e-commerce\ office\ learning\ stationery_1050798.jpg);
+ 
+}
+
+.navbar {
+    padding: 1rem 2rem;
+ 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    background-color: #f8f9fa; /* Light background */
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+   
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.jumbotron p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Or your desired primary color */
+    border-color: #007bff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.container {
+    padding: 3rem 1rem;
+}
+
+.container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-top: 1px solid #dee2e6;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+    .jumbotron p {
+        font-size: 1rem;
+    }
+}
+
+.container {
+    max-width: 960px; /* Adjust as needed */
+    
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Change to your primary color */
+    border-color: #007bff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Add any other custom styles here */
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#applyBtn{
+    background-color:#007bff;
+    color: #dee2e6;
+
+}
